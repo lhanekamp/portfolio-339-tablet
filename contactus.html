@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Abril+Fatface">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway">
+    <link rel="shortcut icon" type="image/png" href="images/AA.png"/>
+
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <title>Contact Us</title>
+</head>
+<body>
+    <a class="skip" href="#skip">Skip to Main Content</a>
+    <header class="menu">
+      <a href="index.html">
+        <img src="images/AA.png" alt="logo" class = "logo">
+      </a>
+      <div class="dropdown">
+
+        <button id="dropbtn">
+            <div>
+                <i class="fa fa-bars"></i>
+                <span>Menu</span>
+            </div>
+            
+        </button>
+        <div id="myDropdown" class="dropdown-content">
+            <a href="index.html">Home</a>
+            <a href="favorites.html">Our Favorites</a>
+            <a href="gallery.html">Gallery</a>
+            <a class="current" href="contactus.html">Contact Us</a>
+            
+        </div>
+        </div>
+    
+       
+        <nav class = "desktop-nav">
+            <ul class="nav_links">
+              <li class="nav_item"><a href="index.html">Home</a></li>
+              <li class="nav_item"><a href="favorites.html">Our Favorites</a></li>
+              <li class="nav_item"><a href="gallery.html">Gallery</a></li>
+              <li class="nav_item"><a class="current" href="contactus.html">Contact Us</a></li>
+            </ul>
+        </nav>
+  </header>
+  <main class="contactus" id ="skip">
+      
+    <header id="contact-us">
+        <div>
+            <h1>Contact Us.</h1>
+            <p>Complete the following form, and we'll answer any questions you may have. Also feel free to reach out if you have any favorite spots in Ann Arbor we have yet to find!
+            </p>
+        </div>    
+    </header>
+    <div class="about-us">
+
+        <h1>Send Us A Message</h1>
+        
+        <form action = "#" method = "get" id="form">
+    
+		<fieldset class="name">
+          <h2>Name</h2>
+          <div class="sidebyside">
+            <div class="first">
+                <input type="text" id="fname" name="fname" required>
+                <label for="fname">First</label><br>
+            </div>
+            <div class="last">
+                <input type="text" id="lname" name="lname" required>
+                <label for="lname">Last</label><br>
+            </div>
+          </div>
+
+        </fieldset>
+        <fieldset class="email">
+            <div id="email-address">
+              <label for="email">Email</label><br>
+              <input type="text" id="email" name="email" required>
+                  
+            </div>
+          </fieldset>
+          <hr>
+          <fieldset class="phone">
+            <div id="phone-number">
+              <label for="phone">Phone Number</label><br>
+                  <input type="text" id="phone" name="phone" required>
+            </div>
+          </fieldset>
+          <hr>
+
+        <fieldset class="message">
+          <label for="message">Message</label>
+          <br>
+          <textarea id="message" name="message" rows="5" cols="40"></textarea>
+        </fieldset>
+        <hr>
+
+        <fieldset>
+          <button class = "submit" type=submit>Send Message</button>
+        <fieldset>
+        
+      </form>
+        </div>
+    </div> 
+        <div id="contact-info">
+        <div class = "contact-bckgrnd1"> 
+        </div>
+        <div class = "contact-bckgrnd2"> 
+        
+        
+                <h3>
+                    About Us
+                </h3>
+                <img src="images/AA.png" alt="logo" class = "logo">
+                <div>
+                    <h2> Hello! My name is Logan. I am currently a junior at the University of Michigan. I created Ann Arbor Foodies to share my love of food and finding fun and delicious places to eat all around Ann Arbor. I hope my favorites I have shared inspire you to try new places in Ann Arbor, MI. These are some of my favorites, but please feel free to contact me if I am missing any of your favorite spots. I love hearing about new places just as much as I love discovering them on my own! 
+                    </h2>
+                </div>
+            
+            </div>
+            <div class = "contact-bckgrnd3"> 
+            </div>
+
+            <div class="contact-icon">
+                <img src="images/pin.png" alt="pin" id = "pin">
+                <div class="text">
+                    
+                    <h3>Best Food Finds in:</h3>
+                    <h1>Ann Arbor, Michigan</h1>
+
+                </div>
+            </div>
+
+            <div id = "map">
+              <img src="images/google-map.png" alt="map of Ann Arbor">
+            </div>
+        </div>
+
+    
+            
+
+      
+        <script src="js/form.js"></script>
+        <script src="js/mobile-menu.js"></script>
+
+
+    
+    </main>
+    <footer>
+      <div class ="footer-text">
+       <h2>Ann Arbor Foodies </h2>
+      </div> 
+
+      <div>
+       <ul class="footer_links">
+           <li class="footer_item"><a href="index.html">Home</a></li>
+           <li class="footer_item"><a href="favorites.html">Our Favorites</a></li>
+           <li class="footer_item"><a href="gallery.html">Gallery</a></li>
+           <li class="footer_item"><a class="current" href="contactus.html">Contact Us</a></li>
+       </ul>
+       <p> &copy; Logan Hanekamp - 2021</p>
+      </div>
+     
+     
+   </footer>
+        
+      
+    
+</body>
+</html>
